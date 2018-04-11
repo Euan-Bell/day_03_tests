@@ -6,18 +6,18 @@ class My_Functions < MiniTest::Test
 
   # Write a function that takes has two parameters, array1 and array2
   # It should return the sum of the array lengths
-  
+
   def test_add_length_of_arrays
     result = add_array_lengths( [ "Zsolt", "Sandy" ], [ "John", "Finn", "Kat" ] )
     assert_equal( 5, result )
   end
 
-  # # Write a function that has a parameter named numbers
-  # # It should return the sum value of an array passed as the argument
-  # def test_sum_array
-  #   result = sum_array( [ 1,2,3,4,5 ] )
-  #   assert_equal( 15, result )
-  # end
+  # Write a function that has a parameter named numbers
+  # It should return the sum value of an array passed as the argument
+  def test_sum_array
+    result = sum_array( [ 1,2,3,4,5 ] )
+    assert_equal( 15, result )
+  end
 
   # # Write a function that has two parameters, array and item
   # # It should return true if the item exists in the array otherwise it should return false
